@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Ubuntu' , sans-serif; */
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.doggy {
+  transform: rotate(15deg);
+  position: relative;
+  top: 30%;
+  z-index: 0;
+}
+
+.col-lg-6 {
+  margin-top: 50px;
+}
+
+/* navigation  */
+.navbar {
+  padding-top: 5rem;
+  padding-left: 0;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+.btn {
+  margin: 12px 6px;
+}
+
+/* Features */
+.features_doggy {
+  padding: 50px;
+}
+
+#features {
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.features_img_doggy {
+  color: red;
+  font-size: 60px;
+}
+
+.feature_h3 {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.feature_p {
+  font-weight: 500;
+  color: darkgrey;
+}
+
+i:hover {
+  color: cyan;
+}
+
+span:hover {
+  color: cyan;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 75px;
+}
+
+.pebble {
+  margin: 30px 30px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.pebble1 {
+  color: #000;
+}
+
+.pebble3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #fff;
+  font-weight: 400;
+  padding: 80px 20px 75px 75px;
+  font-size: 3rem;
+}
+
+/* PRESS */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 60px 15px;
+}
+
+.press_img {
+  margin: 10px 10px;
+  width: 15%;
+}
+
+/* Spaces b/w carousel icons */
+.carousel-control-prev-icon {
+  margin-right: 130px;
+  margin-top: 200px;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 130px;
+  margin-top: 200px;
+  width: 30px;
+  height: 30px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.pricing_card {
+  padding: 3% 3%;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+/* CTA */
+#cta {
+  padding: 10% 4%;
+  background: #ff4c68;
+  text-align: center;
+  color: white;
+  /* margin-bottom: 20px; */
+}
+
+/* FOOTER */
+#footer {
+  background-color: #ff4c68;
+  padding: auto auto 5% 0;
+  text-align: center;
+}
+
+.footer {
+  padding: 1% 2%;
+}
+
+#footer1 {
+  padding-bottom: 0;
+}
